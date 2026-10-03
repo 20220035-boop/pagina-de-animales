@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-container":"#2d6a4f","background":"#f8f9ff","secondary":"#9a442d","on-tertiary-container":"#89edba","surface-container-highest":"#dee2ec","secondary-fixed":"#ffdbd2","surface-container-high":"#e4e8f2","tertiary-container":"#006d48","on-tertiary-fixed-variant":"#005235","primary":"#0f5238","primary-fixed-dim":"#95d4b3","primary-fixed":"#b1f0ce","on-surface-variant":"#404943","error":"#ba1a1a","surface-dim":"#d6dae4","on-primary":"#ffffff","surface-container-low":"#f0f4fd","on-primary-fixed":"#002114","surface-bright":"#f8f9ff","on-tertiary-fixed":"#002113","on-secondary-fixed-variant":"#7c2e19","tertiary-fixed-dim":"#75daa8","surface-tint":"#2c694e","outline-variant":"#bfc9c1","surface":"#f8f9ff","on-secondary-fixed":"#3c0800","on-tertiary":"#ffffff","inverse-on-surface":"#edf1fb","inverse-surface":"#2c3138","tertiary":"#005236","on-error-container":"#93000a","surface-container":"#eaeef8","on-primary-container":"#a8e7c5","error-container":"#ffdad6","surface-container-lowest":"#ffffff","inverse-primary":"#95d4b3","on-surface":"#171c23","on-secondary":"#ffffff","on-error":"#ffffff","secondary-fixed-dim":"#ffb4a1","on-primary-fixed-variant":"#0e5138","outline":"#707973","on-secondary-container":"#742814","secondary-container":"#fc9174","on-background":"#171c23","tertiary-fixed":"#92f7c3","surface-variant":"#dee2ec"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xs":"0.25rem","gutter-sm":"0.75rem","margin":"1.25rem","space-sm":"0.5rem","space-md":"1rem","gutter":"1rem","margin-lg":"2rem","space-xl":"2.25rem","space-lg":"1.5rem"},fontFamily:{"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0em",fontWeight:"400"}],"display-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"800"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"-0.01em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"26px",letterSpacing:"0em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"18px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-md":["22px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"700"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"display":["40px",{lineHeight:"48px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-sm":["12px",{lineHeight:"16px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-40 w-full flex flex-col justify-between"><div class="h-10 bg-surface-container-low px-margin flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[16px] text-primary">local_shipping</span><span>Envío gratis en pedidos sobre <strong class="text-primary font-bold">$35</strong></span></div><div class="flex items-center gap-space-lg"><button class="flex items-center gap-space-xs hover:text-primary transition-colors cursor-pointer" type="button"><span class="material-symbols-outlined text-[16px]">support_agent</span><span>Atención al Cliente</span></button><div class="flex items-center gap-space-xs bg-surface-container-lowest px-space-sm py-space-xs rounded-full shadow-[0_1px_4px_rgba(30,35,42,0.04)] cursor-pointer"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span><span class="text-on-surface font-semibold">Luna 🐾</span><span class="text-on-surface-variant">(Perro Adulto)</span><span class="material-symbols-outlined text-[14px]">expand_more</span></div></div></div><div class="h-18 px-margin flex items-center justify-between gap-space-lg bg-surface-container-lowest"><div class="flex items-center gap-space-md shrink-0"><img alt="Modern minimalist pet paw with a green sprout leaf integrated into the paw pad, clean flat vector logo for NutriPet wellness, warm forest green and soft coral tones on white background. Design context: - Primary color: #2d6a4f
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+. The logo should be visually consistent with these brand tokens." class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XAAgQF7Zn2Ex6zytVUWtCPUt8tFPgW0raCI1xHSz8pOEtVgKIuWpsYpFPc_xVAWyrZD1UH9rdnJOCGskrNsYWDSl1EzF4pMvhg2n3D54NoyA_6JJ7jQ3dYn7hqMjBuSP_2vrW_4teYXbEX5VYJ72M1I9bJNdUeQ2Of1J1LL_HS7exgaD8ZMG1I3VKrBdR2cnTtCMYu75LcJW19joyv4Rh9iADiE3J4ixd24BBr_nofi3qtuHKBDMdGT4Q"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-primary leading-none">NutriPet</span><span class="font-label-sm text-label-sm text-secondary font-bold tracking-wide uppercase leading-tight">Wellness</span></div></div><div class="flex-1 max-w-2xl"><div class="flex items-center h-12 bg-surface-container-low rounded-xl px-space-md shadow-[0_2px_6px_-1px_rgba(30,35,42,0.02)]"><button class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface pr-space-md shrink-0 border-r border-outline-variant/30" type="button"><span>Todas las categorías</span><span class="material-symbols-outlined text-[16px]">arrow_drop_down</span></button><input class="w-full bg-transparent px-space-md font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/70 focus:outline-none" placeholder="Buscar por marca, ingrediente o necesidad..." type="text"/><div class="flex items-center gap-space-xs shrink-0 text-on-surface-variant"><button class="p-space-xs hover:text-primary transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">mic</span></button><button class="p-space-xs bg-primary text-on-primary rounded-lg flex items-center justify-center hover:bg-primary-container transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button></div></div></div><div class="flex items-center gap-space-lg shrink-0"><div class="flex items-center gap-space-sm cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XQlk7llbagV4ipJC3h2jtousTY19PxbmzQizaL2wFCXcwsI4aMLxC0sl7Dt5d_I8APH1F7JhQv6P2yLqTp3JdoqLGd-gV3JhkNvB3en4x4tvkpDYIhdNZ7X89IlC4Fvn6LA-JOCOGPyqnIIOIabQ7rPFjO5YZcg9ivGX7L0ECep3erUgL1Zr-HBxzCuHXQ3naV8Qv-7P8_2ysAAONWyhGewNJCbBlg30e6kBK3y5svnOS1BTfhlVEeWDE"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-on-surface-variant leading-none">Hola,</span><span class="font-label-md text-label-md text-on-surface leading-tight font-bold">Sofía</span></div></div><a class="relative flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-colors text-on-surface" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm flex items-center justify-center font-bold">3</span></a><button class="flex items-center gap-space-sm bg-secondary text-on-secondary h-11 px-space-lg rounded-xl font-label-lg text-label-lg shadow-[0_4px_16px_-2px_rgba(154,68,45,0.25)] hover:scale-[0.98] transition-all" type="button"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span>Carrito (2)</span></button></div></div><nav class="h-12 px-margin flex items-center justify-between bg-surface-container-low/60 backdrop-blur-sm" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-lg"><div class="flex items-center gap-space-md"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-primary-container text-on-primary-container font-bold rounded-lg" data-path="perros" href="#">Perros</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="gatos" href="#">Gatos</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="planes-de-suscripcion" href="#">Planes de Suscripción</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="dietas-especiales-y-veterinaria" href="#">Dietas Especiales &amp; Veterinaria</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="premios-y-snacks" href="#">Premios &amp; Snacks</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="asesoria-nutricional" href="#">Asesoría Nutricional</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ofertas" href="#">Ofertas</a></div><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-primary font-bold"><span class="material-symbols-outlined text-[16px]">verified</span><span>Farm to Bowl Quality Guarantee</span></div></nav></div></header><main class="w-full pt-40 bg-surface"><div class="flex flex-col w-full">
+<div class="max-w-7xl mx-auto w-full px-margin py-space-md">
+<!-- Breadcrumb Navigation -->
+<nav class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md mb-space-lg">
+<a class="hover:text-primary transition-colors" href="#">Inicio</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Alimento para Perros</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Alimento Seco</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-bold">NutriBark Salmón</span>
+</nav>
+<!-- Main PDP Grid (Left: Gallery & Highlights, Right: Commerce & Configuration) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- LEFT COLUMN: Product Gallery (Col 7) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<div class="relative bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm overflow-hidden flex flex-col items-center">
+<!-- Badges overlay -->
+<div class="absolute top-space-md left-space-md flex flex-wrap gap-space-xs z-10">
+<span class="px-space-sm py-space-xs bg-secondary text-on-secondary rounded-lg font-label-sm text-label-sm shadow-sm">#1 Más Vendido</span>
+<span class="px-space-sm py-space-xs bg-primary-fixed text-on-primary-fixed rounded-lg font-label-sm text-label-sm font-bold">100% Natural</span>
+<span class="px-space-sm py-space-xs bg-surface-container-high text-primary font-bold rounded-lg font-label-sm text-label-sm">Fórmula Hipoalergénica</span>
+</div>
+<!-- Wishlist button -->
+<button class="absolute top-space-md right-space-md w-10 h-10 rounded-full bg-surface-container-low hover:bg-surface-container-high flex items-center justify-center text-on-surface transition-colors z-10" type="button">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<!-- Main Showcase Visual -->
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden relative flex items-center justify-center bg-surface-container-low/40 mt-space-md">
+<img class="w-full h-full object-cover transition-opacity duration-300" data-alt="Premium crafted pet food bag of NutriBark Wild Salmon &amp; Brown Rice resting beside fresh sliced Pacific salmon fillet, whole blueberries, fresh organic carrots, and spinach on a clean, softly lit natural studio wooden kitchen surface. Soft natural daylight, warm sage green accents, subtle farm-to-bowl culinary styling, clean editorial commercial photography." id="main-product-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNQYtlF_9S9nUx9ai-ipNaKRwYmHV7Lc3bQqRt0ssmQIA94jQIRsy27YnBl7-7JXnf8gvOfssypP0vjiE9VhWj6jk-s5Dq4rCpRuYjLOzeU2hiaPwSzNhDbpynegSu99Ypq2nR3F3SQIg3LjFv1HtTszBEK4QRVs-54l4X9Qg2VG5IlWlMX1b7SCmM0yPyTHsPz8INCve_-w4ZmiLgLVH8xo8dvK3W0IDJpXI8u0uxnQ6uI2skGN7B"/>
+</div>
+<!-- Thumbnails Row -->
+<div class="grid grid-cols-4 gap-space-md w-full mt-space-md">
+<button class="thumbnail-btn relative aspect-square rounded-xl overflow-hidden bg-surface-container-low shadow-sm transition-all p-1" onclick="switchImage(0, this)" type="button">
+<img class="w-full h-full object-cover rounded-lg" data-alt="Front facing pack of NutriBark Wild Salmon dog food bag showing detailed logo with salmon graphics and certified organic seal on soft cream studio background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmp_W7aLiQD77FIUP0wGMioZ5Z1Q1PwF_CJjzKgJoOnxxWmIFq_CEMVQW1U3XshoCWFEhyugi5NQIM8gHXX04JS5_Y2HS5uX8SAY3uZX_0X6yLReH5ctAz2kkf43vaJ5YG-fuT-bbDqZSeQDhP7NPSIylC7_kDFxHKVmXjqkFyE4aA3HOx3aVcxo-adz_gzbeWRCbqoPKXu5UlnNJzVKF3J0qqWJe1GGRAgtc1d5sURoPIGP0jv5hZ"/>
+</button>
+<button class="thumbnail-btn relative aspect-square rounded-xl overflow-hidden bg-surface-container-low opacity-70 hover:opacity-100 transition-all p-1" onclick="switchImage(1, this)" type="button">
+<img class="w-full h-full object-cover rounded-lg" data-alt="Back panel of NutriBark pet food package displaying transparent verified nutritional chart, wild salmon omega-3 metrics, and clean whole-food ingredient list." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9zC629uMttdraruoYnYp5mh98APOol61hkq1DilK2Cc3DQzfGKEEunBnaAUp7ehyPzpwGhNM78_958ov5aUuWus7JcSG8FV7ihQ_XYAkEF4eXGmv8cr759NKfZ1cMmAeNGgO1ruQZhDO7r8i3HnHj6428OIR0v4WUQ3HerXgChPK9s10RoYUFnfHu2LlL49_PIVKlQYqRSjBjDC6WUtwkHYIJWgcsL6TAHCNcMSB2Oj34Cy-NWBV9"/>
+</button>
+<button class="thumbnail-btn relative aspect-square rounded-xl overflow-hidden bg-surface-container-low opacity-70 hover:opacity-100 transition-all p-1" onclick="switchImage(2, this)" type="button">
+<img class="w-full h-full object-cover rounded-lg" data-alt="Macro close-up shot of crunchy artisanal heart-shaped kibble bites with real dried herb specks, rich rustic brown color and porous healthy texture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZQDHm1HCUwA-335faK_sWmM3q-SY9Tncb7GaBfd2IxGWGmSNjy8G009NXkC-yyWWkyInTYRnkGiRzsafJISpVn_zJ_9GqlPvorUo2ftfHo-Qm9zKiw4XAtDBY_0vsNiQQ2ioDF6_A-tiAZ4VrS73FFOpefxyv-tc_8srFzevP8Y15FdoJ1OU1zh_NFd6kdsLYfwz8wxVhtgGv3LtA9Y1FqrTv9PzWC9GSq5PLpPERRjGMZSJnz5uf"/>
+</button>
+<button class="thumbnail-btn relative aspect-square rounded-xl overflow-hidden bg-surface-container-low opacity-70 hover:opacity-100 transition-all p-1" onclick="switchImage(3, this)" type="button">
+<img class="w-full h-full object-cover rounded-lg" data-alt="Happy Golden Retriever dog enjoying NutriBark salmon kibble from a sage ceramic pet bowl in an airy, sunny modern Scandinavian living room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOsUR9Bbc0yWj9e0yeM6TPcieD4RrTUrulzV7oskR_30fS6QIkv7RAGgOm7OuSC76gEjLUlUTLh8QtL1APEDRqawaNArzfSDGPCpf4vKS1ba3-DpfKAPQZguu4jhKjcpx1Tw_J4uHY8v6WBhF-3stxhCtzwtMzph9TvN2_9ZQAeM9khGXNVT_52CVtvFEXf0t4j3BkKcgnu-Sor5jREpKobowHMsmsj3KTgM8TiV9Hxp4I_h0foA8u"/>
+</button>
+</div>
+</div>
+<!-- Macro Nutritional Pillars Bento -->
+<div class="grid grid-cols-3 gap-space-md">
+<div class="p-space-md bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[22px]">fitness_center</span>
+</div>
+<span class="font-headline-md text-headline-md font-bold text-primary leading-none">28%</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Proteína Cruda</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Salmón del Pacífico sustentable para masa muscular magra.</span>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[22px]">water_drop</span>
+</div>
+<span class="font-headline-md text-headline-md font-bold text-secondary leading-none">Omega 3 &amp; 6</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Salud Dérmica</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Piel calmada y pelaje sedoso y radiante sin descamación.</span>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[22px]">microbiology</span>
+</div>
+<span class="font-headline-md text-headline-md font-bold text-primary leading-none">100M UFC</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Probióticos Vivos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Digestión fluida, heces firmes y microbiota equilibrada.</span>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Purchase Details & Controls (Col 5) -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- Header & Title -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">NutriPet Signature Line</span>
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span>En Stock (Despacho Hoy)</span>
+</div>
+</div>
+<h1 class="font-headline-lg text-headline-lg font-bold text-on-surface leading-tight">NutriBark Salmón Silvestre &amp; Arroz Integral</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Perros Adultos Raza Mediana y Grande • Nutrición Holística Biológicamente Apropiada</p>
+<!-- Review Stars Rating -->
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">4.9</span>
+<a class="font-body-sm text-body-sm text-primary hover:underline font-semibold" href="#opiniones-section">(245 reseñas verificadas)</a>
+</div>
+</div>
+<!-- Size Options -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between">
+<span>Selecciona Tamaño de Porción</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">Guía de consumo sugerida</span>
+</label>
+<div class="grid grid-cols-3 gap-space-sm" id="size-selector-container">
+<!-- 1.5kg -->
+<button class="size-btn p-space-sm bg-surface-container-lowest hover:bg-surface-container-low rounded-xl text-left shadow-sm transition-all flex flex-col justify-between" onclick="selectSize('1.5kg', 16.50, 14.85, this)" type="button">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">1.5 kg</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Prueba (7-10 d)</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface mt-space-xs">$16.50</span>
+</button>
+<!-- 3.0kg (Default Active) -->
+<button class="size-btn p-space-sm bg-primary-container text-on-primary-container rounded-xl text-left shadow-sm transition-all flex flex-col justify-between relative overflow-hidden" onclick="selectSize('3.0kg', 28.50, 25.65, this)" type="button">
+<div class="flex items-center justify-between w-full">
+<span class="font-label-lg text-label-lg font-bold text-on-primary">3.0 kg</span>
+<span class="bg-secondary text-on-secondary px-space-xs py-[2px] rounded font-label-sm text-label-sm">Popular</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-primary-container/80">20-30 días</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-primary mt-space-xs">$28.50</span>
+</button>
+<!-- 10.0kg -->
+<button class="size-btn p-space-sm bg-surface-container-lowest hover:bg-surface-container-low rounded-xl text-left shadow-sm transition-all flex flex-col justify-between" onclick="selectSize('10.0kg', 79.00, 71.10, this)" type="button">
+<div class="flex items-center justify-between w-full">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">10.0 kg</span>
+<span class="bg-primary-fixed text-on-primary-fixed px-space-xs py-[2px] rounded font-label-sm text-label-sm">-20%</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Familiar (+60 d)</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface mt-space-xs">$79.00</span>
+</button>
+</div>
+</div>
+<!-- Purchase Mode Toggle Cards -->
+<div class="flex flex-col gap-space-sm">
+<!-- Option 1: Subscribe & Save (Active) -->
+<div class="purchase-card cursor-pointer p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all" id="card-subscription" onclick="setPurchaseMode('subscription')">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<div class="w-5 h-5 rounded-full bg-primary flex items-center justify-center text-on-primary mt-1 shrink-0" id="sub-radio-indicator">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Suscríbete &amp; Ahorra 10%</span>
+<span class="bg-secondary-fixed text-on-secondary-fixed px-space-xs py-[2px] rounded font-label-sm text-label-sm font-bold">Recomendado</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Comida fresca entregada automáticamente. Pausa o cancela en 1 clic.</div>
+</div>
+</div>
+<div class="text-right shrink-0">
+<div class="font-headline-md text-headline-md font-bold text-secondary" id="sub-price-val">$25.65</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant line-through" id="sub-regular-val">$28.50</div>
+</div>
+</div>
+<!-- Frequency Dropdown (Visible on Subscription) -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between gap-space-md bg-surface-container-low p-space-sm rounded-xl" id="sub-frequency-container">
+<span class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary">autorenew</span>
+<span>Frecuencia:</span>
+</span>
+<select class="bg-surface-container-lowest text-on-surface font-label-md text-label-md px-space-md py-space-xs rounded-lg focus:outline-none cursor-pointer">
+<option value="4">Cada 4 semanas (Recomendado 3kg)</option>
+<option value="6">Cada 6 semanas</option>
+<option value="8">Cada 8 semanas</option>
+</select>
+</div>
+</div>
+<!-- Option 2: One-time Purchase -->
+<div class="purchase-card cursor-pointer p-space-md rounded-2xl bg-surface-container-low/70 hover:bg-surface-container-lowest transition-all" id="card-onetime" onclick="setPurchaseMode('onetime')">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center text-transparent shrink-0" id="onetime-radio-indicator">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Compra Única</span>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Envío puntual sin compromiso recurrente</div>
+</div>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="onetime-price-val">$28.50</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quantity Stepper & Cart Action -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-md">
+<!-- Quantity Counter -->
+<div class="flex items-center bg-surface-container-low rounded-xl p-1 shrink-0 h-[52px]">
+<button class="w-10 h-10 rounded-lg bg-surface-container-lowest text-on-surface flex items-center justify-center hover:bg-surface-container-high transition-colors font-bold" onclick="adjustQty(-1)" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<span class="w-12 text-center font-headline-sm text-headline-sm font-bold text-on-surface" id="quantity-display">1</span>
+<button class="w-10 h-10 rounded-lg bg-surface-container-lowest text-on-surface flex items-center justify-center hover:bg-surface-container-high transition-colors font-bold" onclick="adjustQty(1)" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<!-- Primary Add CTA -->
+<button class="flex-1 h-[52px] bg-secondary text-on-secondary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-sm shadow-md hover:scale-[0.99] active:scale-[0.97] transition-all" id="add-to-cart-cta" type="button">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span id="cta-button-text">Agregar al Carrito con Suscripción</span>
+</button>
+</div>
+<!-- Assurance Badges -->
+<div class="flex items-center justify-around py-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">local_shipping</span>
+<span>Envío Gratis incluido</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">format_image_left</span>
+<span>Garantía de Cuenco Vacío (30 días)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">event_repeat</span>
+<span>Sin permanencia</span>
+</div>
+</div>
+</div>
+<!-- Pet Profile Dynamic Match Card -->
+<div class="p-space-md rounded-2xl bg-surface-container-low flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-headline-sm shrink-0">
+              🐾
+            </div>
+<div>
+<div class="font-label-md text-label-md font-bold text-on-surface">Compatibilidad con Luna (Perro Adulto)</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Calce del 98% con sus requerimientos de energía y piel sensible.</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[24px]">verified</span>
+</div>
+</div>
+</div>
+<!-- TABS SECTION BELOW THE FOLD -->
+<div class="mt-space-xl pt-space-xl" id="opiniones-section">
+<!-- Tab Header Strip -->
+<div class="flex items-center gap-space-sm overflow-x-auto pb-space-sm bg-surface-container-low p-1.5 rounded-2xl">
+<button class="tab-button flex-1 py-space-sm px-space-md rounded-xl font-label-lg text-label-lg font-bold bg-surface-container-lowest text-primary shadow-sm transition-all whitespace-nowrap text-center" onclick="showTab('tab-benefits', this)" type="button">
+          Beneficios &amp; Nutrición
+        </button>
+<button class="tab-button flex-1 py-space-sm px-space-md rounded-xl font-label-lg text-label-lg font-bold text-on-surface-variant hover:text-on-surface transition-all whitespace-nowrap text-center" onclick="showTab('tab-guaranteed', this)" type="button">
+          Tabla Nutricional Garantizada
+        </button>
+<button class="tab-button flex-1 py-space-sm px-space-md rounded-xl font-label-lg text-label-lg font-bold text-on-surface-variant hover:text-on-surface transition-all whitespace-nowrap text-center" onclick="showTab('tab-guide', this)" type="button">
+          Guía de Alimentación Diaria
+        </button>
+<button class="tab-button flex-1 py-space-sm px-space-md rounded-xl font-label-lg text-label-lg font-bold text-on-surface-variant hover:text-on-surface transition-all whitespace-nowrap text-center" onclick="showTab('tab-reviews', this)" type="button">
+          Opiniones Verificadas de Dueños (245)
+        </button>
+</div>
+<!-- Tab 1: Beneficios & Nutrición -->
+<div class="tab-panel py-space-lg" id="tab-benefits">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="p-space-lg bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[28px]">flare</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">Pelaje Brillante y Sedoso</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">La alta concentración de EPA y DHA provenientes del aceite puro de salmón salvaje fortalece la barrera epidérmica y frena el prurito por alergias alimentarias comunes.</p>
+</div>
+<div class="p-space-lg bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[28px]">spa</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">Digestión Ligera &amp; Heces Sanas</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">El arroz integral integralmente molido junto a raíz de achicoria (inulina natural) alimenta la flora benéfica, mejorando la consistencia fecal y neutralizando malos olores.</p>
+</div>
+<div class="p-space-lg bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[28px]">do_not_disturb_on</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">Cero Rellenos Artificiales</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Sin maíz, sin trigo ni subproductos de carnes oscuras. Conservado únicamente con tocoferoles mixtos naturales y extracto de romero campestre.</p>
+</div>
+</div>
+<!-- Recipe Origin Spotlight -->
+<div class="mt-space-lg p-space-lg bg-primary text-on-primary rounded-2xl flex flex-col md:flex-row items-center gap-space-lg shadow-sm">
+<div class="w-full md:w-1/3 aspect-[4/3] rounded-xl overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Sustainable cold waters ocean fishing boat near pristine misty Pacific coastline catching wild salmon with eco-friendly certifications and transparent sourcing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxZtUlZ8pzfDx6q_PDxK48DnGAZiwQlQpFBiTpvRn_3XriF8ifStDo6DspJ0GWtsrl4ou0866dwJGy7x0921qpuiLFLPuwgx_f47XWnSTaIJ-_bOlkvpHuTSv0ZcdId8UKY-iadO3PYRumn1ag4vpuLiFMTsT_5znVF5cdN3pIX2mypN-oEcbDiKf65-mQfUSTLe9nbaB3FtAhoOpYgoPDdxa1613l0AvkUAx70pb_U5Q_4U-WtHpC"/>
+</div>
+<div class="flex-1 flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed font-bold">Origen Ético Comprobado</span>
+<div class="font-headline-md text-headline-md font-bold text-on-primary">Salmón Silvestre del Pacífico Norte</div>
+<p class="font-body-md text-body-md text-on-primary-container">Cada lote se rastrea mediante código de embarcación. Cuidamos que la proteína preserve los perfiles de aminoácidos esenciales cocinando a vapor a bajas temperaturas (92°C) en nuestra planta con huella de carbono neutra.</p>
+</div>
+</div>
+</div>
+<!-- Tab 2: Tabla Nutricional Garantizada -->
+<div class="tab-panel hidden py-space-lg" id="tab-guaranteed">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-lg">
+<div class="lg:col-span-2 bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm">
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-md flex items-center justify-between">
+<span>Análisis Garantizado AAFCO</span>
+<span class="font-label-sm text-label-sm text-primary font-bold bg-primary-fixed px-space-sm py-space-xs rounded-lg">Fórmula Adult Maintenance</span>
+</div>
+<div class="flex flex-col gap-space-xs font-body-md text-body-md">
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-semibold text-on-surface">Proteína Cruda (mín.)</span>
+<span class="font-bold text-primary">28.0%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg">
+<span class="font-semibold text-on-surface">Grasa Cruda (mín.)</span>
+<span class="font-bold text-primary">15.0%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-semibold text-on-surface">Fibra Cruda (máx.)</span>
+<span class="font-bold text-on-surface">3.8%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg">
+<span class="font-semibold text-on-surface">Humedad (máx.)</span>
+<span class="font-bold text-on-surface">10.0%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-semibold text-on-surface">Ácidos Grasos Omega-3 (mín.)</span>
+<span class="font-bold text-secondary">1.2%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg">
+<span class="font-semibold text-on-surface">Ácidos Grasos Omega-6 (mín.)</span>
+<span class="font-bold text-secondary">2.8%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-semibold text-on-surface">Calcio / Fósforo</span>
+<span class="font-bold text-on-surface">1.2% / 0.9%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg">
+<span class="font-semibold text-on-surface">Energía Metabolizable Calculada</span>
+<span class="font-bold text-primary">3,680 kcal/kg (380 kcal/taza)</span>
+</div>
+</div>
+</div>
+<!-- Complete Clean Ingredients Card -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-sm">
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface">Ingredientes 100% Claros</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sin letra chica. Cada elemento cumple una función biológica verificada:</p>
+<p class="font-body-sm text-body-sm leading-relaxed text-on-surface bg-surface-container-low p-space-md rounded-xl">
+              Salmón silvestre deshidratado, Arroz integral de grano entero, Cebada perlada agrietada, Harina de pescado de aguas frías, Aceite de salmón (preservado naturalmente con tocoferoles), Grasa de pato limpia, Pulpa de remolacha desazucarada, Linaza dorada orgánica, Levadura de cerveza seca, Arándanos silvestres, Zanahorias baby, Manzanas deshidratadas, Espinaca deshidratada, Quelpo noruego, Cloruro de colina, Clorhidrato de glucosamina, Sulfato de condroitina, Probióticos vivos secos fermentados (Lactobacillus acidophilus).
+            </p>
+</div>
+</div>
+</div>
+<!-- Tab 3: Guía de Alimentación Diaria -->
+<div class="tab-panel hidden py-space-lg" id="tab-guide">
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md mb-space-lg">
+<div>
+<div class="font-headline-md text-headline-md font-bold text-on-surface">Porciones Diarias Recomendadas</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ajusta según nivel de actividad física (1 taza estándar de 250ml ≈ 100g).</p>
+</div>
+<!-- Transition Guide Tooltip -->
+<div class="flex items-center gap-space-xs bg-primary-fixed text-on-primary-fixed px-space-md py-space-xs rounded-xl font-label-md text-label-md font-bold">
+<span class="material-symbols-outlined text-[18px]">info</span>
+<span>Hacer transición gradual en 7 días</span>
+</div>
+</div>
+<!-- Feeding Matrix Table -->
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-md text-body-md">
+<thead>
+<tr class="bg-surface-container-low text-on-surface font-label-md text-label-md uppercase tracking-wide">
+<th class="p-space-md rounded-l-xl">Peso del Perro (kg)</th>
+<th class="p-space-md">Baja Actividad (Senior / Paseo corto)</th>
+<th class="p-space-md">Actividad Moderada (Vida familiar)</th>
+<th class="p-space-md rounded-r-xl">Alta Actividad (Deporte / Agility)</th>
+</tr>
+</thead>
+<tbody class="text-on-surface">
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-md font-bold">10 - 15 kg</td>
+<td class="p-space-md text-on-surface-variant">140 - 190 g / día</td>
+<td class="p-space-md font-semibold text-primary">160 - 220 g / día</td>
+<td class="p-space-md text-on-surface-variant">190 - 260 g / día</td>
+</tr>
+<tr class="bg-surface-container-low/30 hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-md font-bold">15 - 25 kg</td>
+<td class="p-space-md text-on-surface-variant">190 - 280 g / día</td>
+<td class="p-space-md font-semibold text-primary">220 - 325 g / día</td>
+<td class="p-space-md text-on-surface-variant">260 - 380 g / día</td>
+</tr>
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-md font-bold">25 - 35 kg</td>
+<td class="p-space-md text-on-surface-variant">280 - 365 g / día</td>
+<td class="p-space-md font-semibold text-primary">325 - 420 g / día</td>
+<td class="p-space-md text-on-surface-variant">380 - 495 g / día</td>
+</tr>
+<tr class="bg-surface-container-low/30 hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-md font-bold">35 - 50 kg+</td>
+<td class="p-space-md text-on-surface-variant">365 - 480 g / día</td>
+<td class="p-space-md font-semibold text-primary">420 - 550 g / día</td>
+<td class="p-space-md text-on-surface-variant">495 - 650 g / día</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Transition Stepper Visualization -->
+<div class="mt-space-lg p-space-md bg-surface-container-low rounded-xl flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md font-bold text-on-surface">Plan de Transición de 7 Días hacia NutriBark:</span>
+<div class="grid grid-cols-4 gap-space-xs text-center font-label-sm text-label-sm">
+<div class="p-space-xs bg-surface-container-lowest rounded-lg">
+<span class="block font-bold text-primary">Días 1-2</span>
+<span class="text-on-surface-variant">25% NutriBark / 75% Previo</span>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded-lg">
+<span class="block font-bold text-primary">Días 3-4</span>
+<span class="text-on-surface-variant">50% NutriBark / 50% Previo</span>
+</div>
+<div class="p-space-xs bg-surface-container-lowest rounded-lg">
+<span class="block font-bold text-primary">Días 5-6</span>
+<span class="text-on-surface-variant">75% NutriBark / 25% Previo</span>
+</div>
+<div class="p-space-xs bg-primary-container text-on-primary-container rounded-lg font-bold">
+<span class="block text-on-primary">Día 7 en adelante</span>
+<span>100% NutriBark Silvestre</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Tab 4: Opiniones Verificadas de Dueños -->
+<div class="tab-panel hidden py-space-lg" id="tab-reviews">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Rating Breakdown Scorecard (Col 4) -->
+<div class="lg:col-span-4 bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="text-center pb-space-sm">
+<div class="font-display text-display font-extrabold text-primary leading-none">4.9</div>
+<div class="flex items-center justify-center text-secondary py-space-xs">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Basado en 245 compras verificadas</span>
+</div>
+<!-- Star Bars -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm">
+<span class="w-12 text-on-surface">5 estrellas</span>
+<div class="flex-1 h-2 bg-surface-container-low rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[92%] rounded-full"></div>
+</div>
+<span class="w-8 text-right font-bold text-on-surface">92%</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm">
+<span class="w-12 text-on-surface">4 estrellas</span>
+<div class="flex-1 h-2 bg-surface-container-low rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[6%] rounded-full"></div>
+</div>
+<span class="w-8 text-right font-bold text-on-surface">6%</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm">
+<span class="w-12 text-on-surface">3 estrellas</span>
+<div class="flex-1 h-2 bg-surface-container-low rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[2%] rounded-full"></div>
+</div>
+<span class="w-8 text-right font-bold text-on-surface">2%</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm">
+<span class="w-12 text-on-surface">2 estrellas</span>
+<div class="flex-1 h-2 bg-surface-container-low rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[0%] rounded-full"></div>
+</div>
+<span class="w-8 text-right font-bold text-on-surface">0%</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm">
+<span class="w-12 text-on-surface">1 estrella</span>
+<div class="flex-1 h-2 bg-surface-container-low rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[0%] rounded-full"></div>
+</div>
+<span class="w-8 text-right font-bold text-on-surface">0%</span>
+</div>
+</div>
+<button class="w-full py-space-sm bg-surface-container-low hover:bg-surface-container-high rounded-xl font-label-md text-label-md font-bold text-primary transition-colors text-center mt-space-sm" type="button">
+              Escribir una Reseña
+            </button>
+</div>
+<!-- Customer Review Cards Feed (Col 8) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Review 1 -->
+<div class="p-space-md bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed font-bold flex items-center justify-center font-label-lg text-label-lg">
+                    CR
+                  </div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Camila R. &amp; 'Bruno' (Labrador)</span>
+<span class="material-symbols-outlined text-primary text-[16px]" title="Comprador verificado">verified</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hace 4 días • Suscripción activa mensual</span>
+</div>
+</div>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+                "Bruno sufría de dermatitis y se rascaba las patas sin parar con alimentos convencionales a base de pollo. En 3 semanas con NutriBark Salmón el enrojecimiento desapareció por completo y su pelaje brilla increíble. La bolsa de 10kg nos rinde perfecto."
+              </p>
+</div>
+<!-- Review 2 -->
+<div class="p-space-md bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-on-primary-fixed font-bold flex items-center justify-center font-label-lg text-label-lg">
+                    MA
+                  </div>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Matías A. &amp; 'Kira' (Border Collie)</span>
+<span class="material-symbols-outlined text-primary text-[16px]">verified</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hace 2 semanas • Comprador Verificado</span>
+</div>
+</div>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+                "El olor es súper fresco, no huele a harina quemada como otras marcas de supermercado. Las heces son firmes y pequeñas desde el primer día de transición. Además el sistema de suscripción funciona impecable, llega a tiempo antes de que se acabe."
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Related Products Cross-Sell Rail -->
+<div class="mt-space-xl pt-space-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Completa la Dieta de Luna</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">Complementos Recomendados</h2>
+</div>
+<a class="font-label-lg text-label-lg font-bold text-primary hover:underline flex items-center gap-space-xs" href="#">
+<span>Ver catálogo completo</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-space-sm relative">
+<span class="absolute top-2 left-2 bg-primary-fixed text-on-primary-fixed px-space-xs py-[2px] rounded font-label-sm text-label-sm font-bold">Snack Funcional</span>
+<img class="w-full h-full object-cover" data-alt="Artisanal glass jar of NutriPet pure freeze dried wild salmon treats for dogs with fresh herb garnish on neutral warm kitchen background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMr8Ub90cSCYGQPu-_9irEaHh7uuDyEP36o9IETUUppWJ8g0dNVwzboyQwDK7e0R7kiHubatDh4ytl8Tvsd4x9Nx41UbRJbU0g_yTbJbUYEqtlNF835WLJa8iExU34GEUAMdk96r8sT12V2jHAJTGnLT6FfK53cmv3uT2M6VXk1LSURrUcTYECAi9UYpq8EAxmaAWqggYfSuhAlhSvGByVFFHb9ThDv_pWWNUwpAtb7VE47WQdhqts"/>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Liofilizados Puros</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Bocaditos de Salmón &amp; Algas</h3>
+<div class="flex items-center justify-between mt-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">$12.90</span>
+<button class="w-9 h-9 rounded-xl bg-surface-container-low hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-space-sm relative">
+<span class="absolute top-2 left-2 bg-secondary-fixed text-on-secondary-fixed px-space-xs py-[2px] rounded font-label-sm text-label-sm font-bold">Caldo de Huesos</span>
+<img class="w-full h-full object-cover" data-alt="Eco-friendly pouch of organic slow-simmered bone broth pet topper with natural collagen notes on warm slate styling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDy9zhZM2qsUAV3Y2RSkCt3nfyQPVIkstHJDlhghUKTHsSzoHvXEBx5FOUlBaksZw0u4N2rqLuWa4YmIluM-_Hhc5nmrklNOl_aXyMPnTQrHKb5U_Z5eptSHdQayERYbEFMLnoqhCdroqlx98omXETXGa0EEci2sWm2FZulRZxj6UmQyjHBT31xraSfDIdYgyazmCYlVEpyoMHLsNZLS5_V7kPHeUigb_bc9zqN8sDgclltElID_DQL"/>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Hidratación Articular</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Caldo de Salmón &amp; Cúrcuma</h3>
+<div class="flex items-center justify-between mt-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">$8.50</span>
+<button class="w-9 h-9 rounded-xl bg-surface-container-low hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-space-sm relative">
+<span class="absolute top-2 left-2 bg-surface-container-high text-primary px-space-xs py-[2px] rounded font-label-sm text-label-sm font-bold">Aceite Puro</span>
+<img class="w-full h-full object-cover" data-alt="Amber glass dropper bottle of pure Icelandic wild salmon oil pet supplement showing bright golden drop richness." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUdGPlTN4eMgFP-6coHAlQ1uGW9siqtTKVqNXlQhuqyVeB5lhcuorlV1tYeaLTbEbO7YrgcBe6MccNVmPhxmEWwlOxr_ydmr6Ji0KCNk6zJjbBXUac8lVEVUmn-jiFIscTzR-azoml67C8pRwrkoRUMFzdhWiEfTYJRJpd5Cl_Im1eyf1ICcgxZNXs0X8_oR_rYRxmd7UQeI-VCalRdPC-7OI1mB8OY3e-85oYiyOhRSvd6SCLb9Rs"/>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Booster EPA/DHA</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Aceite Silvestre Prensado 250ml</h3>
+<div class="flex items-center justify-between mt-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">$18.00</span>
+<button class="w-9 h-9 rounded-xl bg-surface-container-low hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container-low mb-space-sm relative">
+<span class="absolute top-2 left-2 bg-primary-fixed text-on-primary-fixed px-space-xs py-[2px] rounded font-label-sm text-label-sm font-bold">Pouch Húmedo</span>
+<img class="w-full h-full object-cover" data-alt="Gourmet wet food retort pouch for dogs featuring fresh salmon pate with pumpkin and chia seeds on soft cream background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-jDzLwId4GDB0iVNHP3uPjlPLDt9dlKo59wxRO-mWi1qB5dsSe11B6w1li4cY4JqCTEzYI2snFHaGEO-IpZuhIkwa7Y2PRNqAQLUHa8aWy40SxC-rADU5_HAEvD3B5dWy2jTlCIVgkTGTnhanHishyrrrVx5j0HfNZ8Y1DtYyBLSWCJsqgPUuGQQMn83pK18d6sBGBDjFAFmGW3ITKhuVUcP470UFEdAL3IMVA7mSKgDhfmozu-fY"/>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Comida Húmeda</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Pouch Estofado de Salmón</h3>
+<div class="flex items-center justify-between mt-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-primary">$4.25</span>
+<button class="w-9 h-9 rounded-xl bg-surface-container-low hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Logic Script for Tab Switching, Purchase Toggles, and Steppers -->
+<script>
+    let currentQty = 1;
+    let currentMode = 'subscription';
+    let basePrices = {
+      regular: 28.50,
+      sub: 25.65
+    };
+
+    function switchImage(index, btnEl) {
+      document.querySelectorAll('.thumbnail-btn').forEach(btn => {
+        btn.classList.add('opacity-70');
+        btn.classList.remove('bg-surface-container-high', 'p-0.5');
+      });
+      btnEl.classList.remove('opacity-70');
+      btnEl.classList.add('bg-surface-container-high');
+      
+      const mainImg = document.getElementById('main-product-image');
+      const clickedImg = btnEl.querySelector('img');
+      mainImg.style.opacity = '0.5';
+      setTimeout(() => {
+        mainImg.src = clickedImg.src;
+        mainImg.setAttribute('data-alt', clickedImg.getAttribute('data-alt'));
+        mainImg.style.opacity = '1';
+      }, 150);
+    }
+
+    function selectSize(size, regularPrice, subPrice, btnEl) {
+      basePrices.regular = regularPrice;
+      basePrices.sub = subPrice;
+
+      // Reset all size buttons styling
+      document.querySelectorAll('.size-btn').forEach(b => {
+        b.className = 'size-btn p-space-sm bg-surface-container-lowest hover:bg-surface-container-low rounded-xl text-left shadow-sm transition-all flex flex-col justify-between';
+        const titleSpan = b.querySelector('.text-on-primary');
+        if (titleSpan) titleSpan.className = 'font-label-lg text-label-lg font-bold text-on-surface';
+        const priceSpan = b.querySelectorAll('span')[b.querySelectorAll('span').length - 1];
+        if (priceSpan) priceSpan.className = 'font-headline-sm text-headline-sm font-bold text-on-surface mt-space-xs';
+      });
+
+      // Highlight selected
+      btnEl.className = 'size-btn p-space-sm bg-primary-container text-on-primary-container rounded-xl text-left shadow-sm transition-all flex flex-col justify-between relative overflow-hidden';
+      const selectedTitle = btnEl.querySelector('.text-on-surface');
+      if (selectedTitle) selectedTitle.className = 'font-label-lg text-label-lg font-bold text-on-primary';
+      const selectedPrice = btnEl.querySelectorAll('span')[btnEl.querySelectorAll('span').length - 1];
+      if (selectedPrice) selectedPrice.className = 'font-headline-sm text-headline-sm font-bold text-on-primary mt-space-xs';
+
+      // Update displayed prices
+      document.getElementById('sub-price-val').innerText = '$' + subPrice.toFixed(2);
+      document.getElementById('sub-regular-val').innerText = '$' + regularPrice.toFixed(2);
+      document.getElementById('onetime-price-val').innerText = '$' + regularPrice.toFixed(2);
+    }
+
+    function setPurchaseMode(mode) {
+      currentMode = mode;
+      const subCard = document.getElementById('card-subscription');
+      const oneCard = document.getElementById('card-onetime');
+      const subRadio = document.getElementById('sub-radio-indicator');
+      const oneRadio = document.getElementById('onetime-radio-indicator');
+      const freqBox = document.getElementById('sub-frequency-container');
+      const ctaText = document.getElementById('cta-button-text');
+
+      if (mode === 'subscription') {
+        subCard.className = 'purchase-card cursor-pointer p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all';
+        oneCard.className = 'purchase-card cursor-pointer p-space-md rounded-2xl bg-surface-container-low/70 hover:bg-surface-container-lowest transition-all';
+
+        subRadio.className = 'w-5 h-5 rounded-full bg-primary flex items-center justify-center text-on-primary mt-1 shrink-0';
+        oneRadio.className = 'w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center text-transparent shrink-0';
+        
+        freqBox.classList.remove('hidden');
+        ctaText.innerText = 'Agregar al Carrito con Suscripción';
+      } else {
+        oneCard.className = 'purchase-card cursor-pointer p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all';
+        subCard.className = 'purchase-card cursor-pointer p-space-md rounded-2xl bg-surface-container-low/70 hover:bg-surface-container-lowest transition-all';
+
+        oneRadio.className = 'w-5 h-5 rounded-full bg-primary flex items-center justify-center text-on-primary shrink-0';
+        subRadio.className = 'w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center text-transparent mt-1 shrink-0';
+
+        freqBox.classList.add('hidden');
+        ctaText.innerText = 'Agregar al Carrito (Compra Única)';
+      }
+    }
+
+    function adjustQty(amount) {
+      currentQty = Math.max(1, currentQty + amount);
+      document.getElementById('quantity-display').innerText = currentQty;
+    }
+
+    function showTab(tabId, btnEl) {
+      document.querySelectorAll('.tab-panel').forEach(panel => {
+        panel.classList.add('hidden');
+      });
+      document.getElementById(tabId).classList.remove('hidden');
+
+      document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.className = 'tab-button flex-1 py-space-sm px-space-md rounded-xl font-label-lg text-label-lg font-bold text-on-surface-variant hover:text-on-surface transition-all whitespace-nowrap text-center';
+      });
+      btnEl.className = 'tab-button flex-1 py-space-sm px-space-md rounded-xl font-label-lg text-label-lg font-bold bg-surface-container-lowest text-primary shadow-sm transition-all whitespace-nowrap text-center';
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-margin"><div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg pb-space-xl"><div class="flex items-center gap-space-md p-space-md bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_rgba(30,35,42,0.03)]"><div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[28px]">eco</span></div><div><div class="font-headline-sm text-headline-sm font-bold text-on-surface">100% Natural</div><div class="font-body-sm text-body-sm text-on-surface-variant">Ingredientes biológicamente apropiados y frescos.</div></div></div><div class="flex items-center gap-space-md p-space-md bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_rgba(30,35,42,0.03)]"><div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[28px]">health_and_safety</span></div><div><div class="font-headline-sm text-headline-sm font-bold text-on-surface">Veterinariamente Probado</div><div class="font-body-sm text-body-sm text-on-surface-variant">Fórmulas avaladas por nutricionistas clínicos.</div></div></div><div class="flex items-center gap-space-md p-space-md bg-surface-container-lowest rounded-xl shadow-[0_2px_8px_rgba(30,35,42,0.03)]"><div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[28px]">electric_moped</span></div><div><div class="font-headline-sm text-headline-sm font-bold text-on-surface">Entrega en 24h</div><div class="font-body-sm text-body-sm text-on-surface-variant">Cadena de frío garantizada hasta tu puerta.</div></div></div></div><div class="bg-surface-container-high/40 rounded-2xl p-space-lg mb-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="max-w-xl"><div class="font-headline-md text-headline-md text-primary font-bold mb-space-xs">Únete a la Manada NutriPet &amp; Ahorra 10%</div><div class="font-body-md text-body-md text-on-surface-variant">Recibe planes alimenticios a medida, consejos veterinarios y un 10% de descuento en tu primer pedido.</div></div><div class="flex w-full md:w-auto items-center gap-space-sm"><input class="h-12 w-full md:w-80 px-space-md rounded-xl bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/70 focus:outline-none" placeholder="Introduce tu correo electrónico" type="email"/><button class="h-12 px-space-lg bg-primary text-on-primary rounded-xl font-label-lg text-label-lg whitespace-nowrap hover:bg-primary-container transition-colors" type="button">Suscribirme</button></div></div><div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg pb-space-xl"><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Productos</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Alimento Deshidratado Perro</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Pouch Húmedo Gato</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Premios Liofilizados</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Suplementos &amp; Caldos</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Packs de Degustación</a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Servicios</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Suscripción Personalizada</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Calculadora Nutricional</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Consultas Tele-Vet</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Guía de Transición Dietética</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Club NutriPet Puntos</a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Nosotros</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Nuestra Granja &amp; Proveedores</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Comité Científico</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Sostenibilidad &amp; Empaques</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Impacto &amp; Donaciones</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Trabaja con Nosotros</a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Ayuda &amp; Soporte</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Preguntas Frecuentes</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Seguimiento de Envíos</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Políticas de Devolución</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Términos y Condiciones</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Aviso de Privacidad</a></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="font-body-sm text-body-sm text-on-surface-variant">© 2024 NutriPet Wellness Inc. Todos los derechos reservados. Alimentos balanceados con certificación ecológica.</div><div class="flex items-center gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-xs font-label-sm text-label-sm bg-surface-container-lowest px-space-sm py-space-xs rounded-lg shadow-[0_1px_4px_rgba(30,35,42,0.04)]"><span class="material-symbols-outlined text-[16px] text-primary">credit_card</span><span>Pago Seguro SSL</span></div><div class="flex items-center gap-space-xs font-label-sm text-label-sm bg-surface-container-lowest px-space-sm py-space-xs rounded-lg shadow-[0_1px_4px_rgba(30,35,42,0.04)]"><span class="material-symbols-outlined text-[16px] text-primary">shield_locked</span><span>Garantía de Frescura</span></div></div></div></div></footer></body></html>
